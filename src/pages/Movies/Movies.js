@@ -14,7 +14,7 @@ const Movies = () => {
     const location = useLocation();
     const [ searchParams, setSearchParams ] = useSearchParams();
     const movieId = searchParams.get('query')??'';//прочитать из url тут хранится фильтр
-//console.log(searchParams.get('a'));
+
     
     //из запроса приходит колллекция сохраняестя в стейт 
       useEffect(() => {
@@ -34,13 +34,7 @@ const Movies = () => {
       });
   }, [movieId]);   
     
-    // const updateQueryString = evt => {
-    // const serchMovie = evt.target.value;
-    //     if (serchMovie ==='') {
-    //         return setSearchParams({});
-    //     }
-    //     setSearchParams({ movieId: serchMovie });
-    // };
+    
      const handleInputChange = evt => {
     const { value } = evt.target;
     setMovieInput(value);
@@ -51,8 +45,7 @@ const Movies = () => {
         setMovieInput('');
     };
     
-    //const visibleMovies = movies.filter(movie => movie.includes(movieId));
-    //тыкаешь навлинк изменяется юрл, раут по урл ищет компонент который он должен отрендерить
+   
     return (
             <div className={styles.section}>
                 <form onSubmit={onFormSubmit} className={styles.searchForm}>

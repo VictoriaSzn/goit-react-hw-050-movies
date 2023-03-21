@@ -30,7 +30,7 @@ const MovieDetails = () => {
         
     return (
         <div className={styles.section}>
-            {/* <h1>элемент коллекции: {movieId} </h1> */}
+           
             <div className={styles.goBack}>
             {location.state ? (
                 <Link to={backLinkRef.current} className={styles.linkGo}>Go back</Link>

@@ -20,7 +20,7 @@ const Home = () => {
         setIsLoading(false);
       });
   }, [])
-  //<div>список компонентов который я хочу рендерить по этому пути</div> 
+ 
   return (
     <>
         {error && <p className={styles.text}>Oops, some error:{error}</p>}
