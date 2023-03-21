@@ -1,0 +1,45 @@
+.link {
+    display: inline-block;
+    padding: 4px 8px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: large;
+   
+    
+}
+.active {
+    display: inline-block;
+    padding: 4px 8px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: large;
+    background-color: rgb(228, 223, 223);
+    color: #2196f3;
+}
+.link:hover,
+.link:focus,
+.li:hover,
+.li:focus {
+color: blue;
+}
+
+.header{ 
+padding: 15px 30px;
+border-bottom: 2px solid;
+}
+
+.ul{
+    display: flex;
+    column-gap: 20px;
+     padding: 4px 4px;
+     list-style: none;
+}
+
+  
+
+
+  

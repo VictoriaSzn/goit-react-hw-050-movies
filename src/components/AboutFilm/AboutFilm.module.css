@@ -1,0 +1,33 @@
+
+.div{
+  display: flex;
+  column-gap: 20px;
+  padding: 20px 10px;
+}
+
+.title{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.title_overview_genres{
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.text{
+  margin-bottom: 20px;
+}
+
+.list{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  list-style: none;
+}
+
+.text_score{
+margin-bottom: 10px;
+font-size: 18px;
+text-align:center;
+}

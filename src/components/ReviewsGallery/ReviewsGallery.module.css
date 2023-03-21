@@ -1,0 +1,34 @@
+.title {
+text-align: center;
+margin-left: 20px;
+margin-bottom: 30px;
+
+}
+
+.list {
+margin-left: 50px;
+margin-bottom: 15px;
+list-style: none;
+}
+
+.item{
+ margin-bottom: 5px;
+font-size: 18px;
+}
+
+.text_author{ 
+margin-bottom: 20px;
+font-weight: 600;
+
+}
+
+.text_content{ 
+margin-bottom: 30px;
+
+}
+
+.text_empty{ 
+margin-bottom: 30px;
+text-align: center;
+font-weight: 500;
+}
