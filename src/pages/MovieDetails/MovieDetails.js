@@ -35,7 +35,7 @@ const MovieDetails = () => {
             {location.state ? (
                 <Link to={backLinkRef.current} className={styles.linkGo}>Go back</Link>
             ) : (
-                <Link to="/" className={styles.linkGo}>Go back</Link>
+                <Link to="/movies" className={styles.linkGo}>Go back</Link>
                 )}
             </div>
 
