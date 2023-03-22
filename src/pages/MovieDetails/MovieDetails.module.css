@@ -2,11 +2,6 @@
     margin: 20px 20px;
     border-bottom: 2px solid;
 }
-.div {
-    padding: 10px;
-    display: flex;
-    gap: 30px;
-}
 .link {
     display: inline-block;
     padding: 4px 8px;
@@ -25,6 +20,9 @@
 .li:focus {
     color: blue;
     text-decoration: underline;
+}
+.goBack{
+    margin-bottom: 10px;
 }
  .linkGo {
    display: inline-block;
@@ -60,7 +58,4 @@ list-style: none;
 .add_item:hover,
 .add_item:focus {
     color: #2196f3;
-}
-.goBack{
-    margin-bottom: 10px;
 }

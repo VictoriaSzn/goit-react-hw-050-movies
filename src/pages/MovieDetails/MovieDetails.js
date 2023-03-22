@@ -32,11 +32,7 @@ const MovieDetails = () => {
         <div className={styles.section}>
            
             <div className={styles.goBack}>
-            {location.state ? (
-                <Link to={backLinkRef.current} className={styles.linkGo}>Go back</Link>
-            ) : (
-                <Link to="/movies" className={styles.linkGo}>Go back</Link>
-                )}
+            <Link to={backLinkRef.current} className={styles.linkGo}>Go back</Link>
             </div>
 
             {isLoading && <Loader />}

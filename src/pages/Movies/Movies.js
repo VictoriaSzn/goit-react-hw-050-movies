@@ -77,7 +77,7 @@ const Movies = () => {
                 </>
             )}
                 {notFound && (
-                    <p className={styles.p}>Nothing found. Try again.</p>
+                    <p className={styles.p}>Looks like your search has no results. Try again.</p>
                 )}
 
                 {isLoading && <Loader />}   
